@@ -1562,10 +1562,11 @@ packages:
 - project: networking-vsphere
   name: python-networking-vsphere
   tags:
-    under-review:
+    mitaka:
     #ocata:
     #ocata-uc:
   conf: rpmfactory-lib
+  master-distgit: http://github.com/odivlad/networking-vsphere-distgit.git
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - odivlad@gmail.com
